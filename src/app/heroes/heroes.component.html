@@ -1,4 +1,4 @@
-<h2>{{hero.name | uppercase}} Details</h2>
+<h2>{{User | uppercase}} Details</h2>
 <div><span>id: </span>{{hero.id}}</div>
 <div>
   <label>name:
@@ -6,7 +6,7 @@
   </label>
 </div>
 
-<h2>My Heroes</h2>
+<h2>List of people </h2>
 <ul class="heroes">
   <li *ngFor="let hero of heroes"
     [class.selected]="hero === selectedHero"
